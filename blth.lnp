@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "blth.o" 
+--strict --scatter "blth.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\blth.map" -o blth.axf

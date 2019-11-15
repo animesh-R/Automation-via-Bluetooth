@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'blth.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"blth.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "blth.o" 
+--strict --scatter "blth.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\blth.map" -o blth.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'blth.axf'
+### ADS-LD Command File: 'blth.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'blth.lnp', Handle=0x000007B4
+### Writing '.lnp' file
+### ADS-LD Command file 'blth.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
